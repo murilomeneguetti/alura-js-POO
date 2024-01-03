@@ -14,3 +14,6 @@ console.log(novoAdmin.nome);
 novoAdmin.nome = 'André';
 console.log(novoAdmin.nome);
 console.log(novoAdmin.exibirInfos());
+
+const novoDocente = new Docente('Guilherme', 'g@g.com', '2021-01-01');
+console.log(novoDocente.exibirInfos())
